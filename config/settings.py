@@ -125,4 +125,5 @@ STATICFILES_DIRS = [
 ]
 
 LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = 'http://localhost:5500/index.html'
+# LOGOUT_REDIRECT_URL = 'http://localhost:8082/project_1/index.html' #eclipse
